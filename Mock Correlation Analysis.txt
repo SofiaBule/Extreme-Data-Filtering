@@ -1,0 +1,14 @@
+import pandas as pd
+
+# Create a DataFrame with mock data
+data = pd.DataFrame({
+    'Ice Cream Consumption (pints)': [5, 8, 12, 15, 20],
+    'Number of Umbrellas Owned': [1, 3, 2, 4, 5],
+    'Sunscreen Usage (oz)': [10, 15, 8, 20, 25]
+})
+
+# Calculate mock correlation matrix
+correlation_matrix = data.corr()
+
+# Display the mock correlation matrix
+print(correlation_matrix)
